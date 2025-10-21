@@ -1,9 +1,7 @@
 #include<iostream>
-#include "include/test.h"
+#include"include/FileIO.h"
 using namespace std;
-int main()
-{
-	cout<<"hello world";
-    testFunction();
+int main() {
+	Test();
 	return 0;
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/project_out.dir/main.cpp.o CMakeFiles/project_out.dir/src/chess.cpp.o CMakeFiles/project_out.dir/src/FileIO.cpp.o -o a.out 

@@ -119,86 +119,54 @@ void Chess::init()
 	}
 }
 
-void Chess::move(int now_row, int now_col, int new_row, int new_col, Play now_play)
+bool Chess::move(int now_row, int now_col, int new_row, int new_col,Play now_play)
 {
-	if (!in_board(now_row, now_col, new_row, new_col)) return;
-	int drow = abs(new_row - now_row), dcol = abs(new_col - now_col);
-	if (drow > 1 || dcol > 1) return;
-	if (now_play != board_[now_row][now_col].now_) return;
+    if (!in_board(now_row,now_col,new_row,new_col)) return false;
+    int drow = abs(new_row - now_row), dcol = abs(new_col - now_col);
+    if (drow > 1 || dcol > 1) return false;
+    if (now_play != board_[now_row][now_col].now_) return false;
 
-	if (EMPTY == board_[new_row][new_col].now_ && EMPTY != board_[now_row][now_col].now_) {
+    if (EMPTY == board_[new_row][new_col].now_ && EMPTY !=board_[now_row][now_col].now_) {
 
-		if (-1 != in_blue_O(now_row, now_col)) {
-			if (board_[now_row][now_col].now_ == BLACK) blue_O_[in_blue_O(now_row, now_col)].num_play[0]--;
-			else blue_O_[in_blue_O(now_row, now_col)].num_play[1]--;
-		}
+        if (-1 != in_blue_O(now_row, now_col)) {
+            if (board_[now_row][now_col].now_ == BLACK) blue_O_[in_blue_O(now_row, now_col)].num_play[0]--;
+            else blue_O_[in_blue_O(now_row, now_col)].num_play[1]--;
+        }
 
-		if (-1 != in_green_O(now_row, now_col)) {
-			if (board_[now_row][now_col].now_ == BLACK) green_O_[in_green_O(now_row, now_col)].num_play[0]--;
-			else green_O_[in_green_O(now_row, now_col)].num_play[1]--;
-		}
+        if (-1 != in_green_O(now_row, now_col)) {
+            if (board_[now_row][now_col].now_ == BLACK) green_O_[in_green_O(now_row, now_col)].num_play[0]--;
+            else green_O_[in_green_O(now_row, now_col)].num_play[1]--;
+        }
 
-		if (-1 != in_blue_O(new_row, new_col)) {
-			if (board_[new_row][new_col].now_ == BLACK) blue_O_[in_blue_O(new_row, new_col)].num_play[0]++;
-			else blue_O_[in_blue_O(new_row, new_col)].num_play[1]++;
-		}
+        if (-1 != in_blue_O(new_row, new_col)) {
+            if (board_[new_row][new_col].now_ == BLACK) blue_O_[in_blue_O(new_row, new_col)].num_play[0]++;
+            else blue_O_[in_blue_O(new_row, new_col)].num_play[1]++;
+        }
 
-		if (-1 != in_green_O(new_row, new_col)) {
-			if (board_[new_row][new_col].now_ == BLACK) green_O_[in_green_O(new_row, new_col)].num_play[0]++;
-			else green_O_[in_green_O(new_row, new_col)].num_play[1]++;
-		}
+        if (-1 != in_green_O(new_row, new_col)) {
+            if (board_[new_row][new_col].now_ == BLACK) green_O_[in_green_O(new_row, new_col)].num_play[0]++;
+            else green_O_[in_green_O(new_row, new_col)].num_play[1]++;
+        }
 
-		board_[new_row][new_col].now_ = board_[now_row][now_col].now_;
-		board_[now_row][now_col].now_ = EMPTY;
-	}
-
+        board_[new_row][new_col].now_ = board_[now_row][now_col].now_;
+        board_[now_row][now_col].now_ = EMPTY;
+        return true;
+    }
+    return false;
 }
 
-bool Chess::eat_blue(int now_row, int now_col, int new_row, int new_col, Play now_play)
+
+
+
+bool Chess::move_u(int now_row, int now_col, int new_row, int new_col, Play now_play)
 {
-	if (!in_board(now_row, now_col, new_row, new_col)) return false;
-	if (EMPTY == now_play || now_play != board_[now_row][now_col].now_) return false;
-	int drow = abs(new_row - now_row), dcol = abs(new_col - now_col);
-	int b_index = in_blue_O(new_row, new_col);
-
-	if (-1 != b_index && drow < 2 && dcol < 2) {
-		if (blue_O_[b_index].num_play[board_[now_row][now_col].now_] == 0) {
-			if (BLACK == board_[new_row][new_col].now_) black_total_num_--;
-			else white_total_num_--;
-			blue_O_[b_index].num_play[board_[new_row][new_col].now_]--;
-			board_[new_row][new_col].now_ = EMPTY;
-			move(now_row, now_col, new_row, new_col, now_play);
-			return true;
-		}
-	}
-	return false;
-}
-
-bool Chess::eat_green(int now_row, int now_col, int new_row, int new_col, Play now_play)
-{
-	if (!in_board(now_row, now_col, new_row, new_col)) return false;
-	if (EMPTY == now_play || now_play != board_[now_row][now_col].now_) return false;
-	int drow = abs(new_row - now_row), dcol = abs(new_col - now_col);
-	int g_index = in_green_O(new_row, new_col);
-
-	if (-1 != g_index && drow < 2 && dcol < 2) {
-		if (green_O_[g_index].num_play[board_[now_row][now_col].now_] == 0) {
-			if (BLACK == board_[new_row][new_col].now_) black_total_num_--;
-			else white_total_num_--;
-			green_O_[g_index].num_play[board_[new_row][new_col].now_]--;
-			board_[new_row][new_col].now_ = EMPTY;
-			move(now_row, now_col, new_row, new_col, now_play);
-			return true;
-		}
-	}
-	return false;
-}
-
-void Chess::move_u(int now_row, int now_col, int new_row, int new_col, Play now_play)
-{
-	if (EMPTY == board_[new_row][new_col].now_) move(now_row, now_col, new_row, new_col, now_play);
-	eat_blue(now_row, now_col, new_row, new_col, now_play);
-	eat_green(now_row, now_col, new_row, new_col, now_play);
+    if (EMPTY == board_[new_row][new_col].now_) {
+        move(now_row, now_col, new_row, new_col, now_play);
+        return true ;
+    }
+    return (eat_blue(now_row, now_col, new_row, new_col, now_play)
+        || eat_green(now_row, now_col, new_row, new_col, now_play));
+    
 }
 
 bool Chess::black_checkwin()
@@ -211,6 +179,60 @@ bool Chess::white_checkwin()
 {
 	if (0 == black_total_num_) return true;
 	return false;
+}
+bool Chess::eat_blue(int now_row, int now_col, int new_row, int new_col, Play now_play)
+{
+    if (!in_board(now_row, now_col, new_row, new_col)) return false;
+    if (EMPTY==now_play || now_play != board_[now_row][now_col].now_) return false;
+    int drow = abs(new_row - now_row), dcol = abs(new_col - now_col);
+    int b_index_new = in_blue_O(new_row, new_col);
+    
+    if (-1!=b_index_new && drow<2 && dcol<2) {
+        if (blue_O_[b_index_new].num_play[board_[now_row][now_col].now_] == 0 
+            || 1== blue_O_[b_index_new].num_play[board_[now_row][now_col].now_]&&board_[now_row][now_col].isblue_) {
+            if (BLACK == board_[new_row][new_col].now_) black_total_num_--;
+            else white_total_num_--;
+            blue_O_[b_index_new].num_play[board_[new_row][new_col].now_]--;
+            board_[new_row][new_col].now_ = EMPTY;
+            move(now_row, now_col, new_row, new_col, now_play);
+            return true;
+        }
+    }
+    return false;
+}
+bool Chess::eat_green(int now_row, int now_col, int new_row, int new_col, Play now_play)
+{
+    if (!in_board(now_row, now_col, new_row, new_col)) return false;
+    if (EMPTY == now_play || now_play != board_[now_row][now_col].now_) return false;
+    int drow = abs(new_row - now_row), dcol = abs(new_col - now_col);
+    int g_index = in_green_O(new_row, new_col);
+
+    if (-1 != g_index && drow < 2 && dcol < 2) {
+        if (green_O_[g_index].num_play[board_[now_row][now_col].now_] == 0
+            || 1== green_O_[g_index].num_play[board_[now_row][now_col].now_]&&board_[now_row][now_col].isgreen_) {
+            if (BLACK == board_[new_row][new_col].now_) black_total_num_--;
+            else white_total_num_--;
+            green_O_[g_index].num_play[board_[new_row][new_col].now_]--;
+            board_[new_row][new_col].now_ = EMPTY;
+            move(now_row, now_col, new_row, new_col, now_play);
+            return true;
+        }
+    }
+    return false;
+}
+bool Chess::gameover()
+{
+    return false;
+}
+
+bool Chess::checkwin(Play now_p)
+{
+    if (now_p == BLACK && 0 == white_total_num_ || now_p == WHITE && 0 == black_total_num_) return true;
+    else if (gameover() &&
+        (BLACK == now_p && black_total_num_ > white_total_num_ || 
+        WHITE == now_p && white_total_num_ > black_total_num_))
+        return true;
+    return false;
 }
 void Chess::setOnum_color_init() 
 {

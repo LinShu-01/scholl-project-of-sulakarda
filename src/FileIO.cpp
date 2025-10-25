@@ -7,7 +7,7 @@ void Test()
 {
 	FileIO file;
 	//file.SaveGame("filename.txt");
-	Chess chess = file.LoadGame("filename.txt");
+	Chess chess = file.LoadGame("../filename.txt");
 	for(int i=0;i<BOARD_SIZE;i++)
 	{
 		for(int j=0;j<BOARD_SIZE;j++)

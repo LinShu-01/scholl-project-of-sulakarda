@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(project_out)
+add_executable(project_out main.cpp src/chess.cpp src/FileIO.cpp)
+set_target_properties(project_out PROPERTIES OUTPUT_NAME "a.out")
+target_include_directories(project_out PRIVATE include)

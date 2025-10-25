@@ -35,12 +35,14 @@ public:
 	int in_blue_O(int now_row, int now_col);//
 	int in_green_O(int now_row, int now_col);//
 	void init();//
-	void move(int now_row, int now_col, int new_row, int new_col, Play now_play);
-	bool eat_blue(int now_row, int now_col, int new_row, int new_col, Play now_play);
-	bool eat_green(int now_row, int now_col, int new_row, int new_col, Play now_play);
-	void move_u(int now_row, int now_col, int new_row, int new_col, Play now_play);
+	bool move(int now_row, int now_col, int new_row, int new_col,Play now_play);
+	bool move_u(int now_row, int now_col, int new_row, int new_col, Play now_play);
 	bool black_checkwin();
 	bool white_checkwin();
+	bool eat_blue(int now_row, int now_col, int new_row, int new_col, Play now_play);
+	bool eat_green(int now_row, int now_col, int new_row, int new_col, Play now_play);
+	bool gameover();
+	bool checkwin(Play now_p);
 	void setOnum_color_init();
 	void setOnum_color(int value,int row,int col);//1.统计黑棋和白棋的数量。2.计算blue_0和green_0
 	void printboard();//

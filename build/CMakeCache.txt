@@ -83,7 +83,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/lib_test
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/project_out
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe
@@ -121,7 +121,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=lib_test
+CMAKE_PROJECT_NAME:STATIC=project_out
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -198,13 +198,13 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-lib_test_BINARY_DIR:STATIC=E:/Git/仓库/scholl-project-of-sulakarda/build
+project_out_BINARY_DIR:STATIC=E:/Git/仓库/scholl-project-of-sulakarda/build
 
 //Value Computed by CMake
-lib_test_IS_TOP_LEVEL:STATIC=ON
+project_out_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-lib_test_SOURCE_DIR:STATIC=E:/Git/仓库/scholl-project-of-sulakarda/sava-load_cpp
+project_out_SOURCE_DIR:STATIC=E:/Git/仓库/scholl-project-of-sulakarda/sava-load_cpp
 
 
 ########################

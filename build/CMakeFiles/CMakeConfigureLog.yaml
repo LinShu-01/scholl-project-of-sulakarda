@@ -72,7 +72,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-      鐢熸垚鍚姩鏃堕棿涓?2025/10/22 17:10:12銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/12/5 19:20:19銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -101,7 +101,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:00.42
+      宸茬敤鏃堕棿 00:00:00.39
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -638,7 +638,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-      鐢熸垚鍚姩鏃堕棿涓?2025/10/22 17:10:13銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/12/5 19:20:19銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -667,7 +667,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:00.40
+      宸茬敤鏃堕棿 00:00:00.37
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -860,9 +860,9 @@ events:
       - "D:/Cmake/bin/"
       - "D:/Cmake/sbin/"
       - "D:/Cmake/"
-      - "C:/Program Files (x86)/lib_test/bin/"
-      - "C:/Program Files (x86)/lib_test/sbin/"
-      - "C:/Program Files (x86)/lib_test/"
+      - "C:/Program Files (x86)/project_out/bin/"
+      - "C:/Program Files (x86)/project_out/sbin/"
+      - "C:/Program Files (x86)/project_out/"
     searched_directories:
       - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
@@ -951,15 +951,15 @@ events:
       - "D:/Cmake/rc.com"
       - "D:/Cmake/rc.exe"
       - "D:/Cmake/rc"
-      - "C:/Program Files (x86)/lib_test/bin/rc.com"
-      - "C:/Program Files (x86)/lib_test/bin/rc.exe"
-      - "C:/Program Files (x86)/lib_test/bin/rc"
-      - "C:/Program Files (x86)/lib_test/sbin/rc.com"
-      - "C:/Program Files (x86)/lib_test/sbin/rc.exe"
-      - "C:/Program Files (x86)/lib_test/sbin/rc"
-      - "C:/Program Files (x86)/lib_test/rc.com"
-      - "C:/Program Files (x86)/lib_test/rc.exe"
-      - "C:/Program Files (x86)/lib_test/rc"
+      - "C:/Program Files (x86)/project_out/bin/rc.com"
+      - "C:/Program Files (x86)/project_out/bin/rc.exe"
+      - "C:/Program Files (x86)/project_out/bin/rc"
+      - "C:/Program Files (x86)/project_out/sbin/rc.com"
+      - "C:/Program Files (x86)/project_out/sbin/rc.exe"
+      - "C:/Program Files (x86)/project_out/sbin/rc"
+      - "C:/Program Files (x86)/project_out/rc.com"
+      - "C:/Program Files (x86)/project_out/rc.exe"
+      - "C:/Program Files (x86)/project_out/rc"
     found: false
     search_context:
       ENV{PATH}:
@@ -984,12 +984,12 @@ events:
         - "D:\\Cmake\\bin"
         - "C:\\Users\\boy\\AppData\\Local\\Microsoft\\WindowsApps"
         - "E:\\VScode\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lib_test"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/project_out"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "D:/Cmake"
-        - "C:/Program Files (x86)/lib_test"
+        - "C:/Program Files (x86)/project_out"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -999,8 +999,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-7ih2z1"
-      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-7ih2z1"
+      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1yyb5w"
+      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1yyb5w"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1009,39 +1009,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-7ih2z1'
+        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1yyb5w'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_645ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5a08f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-        鐢熸垚鍚姩鏃堕棿涓?2025/10/22 17:10:14銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/12/5 19:20:20銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ih2z1\\cmTC_645ea.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1yyb5w\\cmTC_5a08f.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ih2z1\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_645ea.dir\\Debug\\cmTC_645ea.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1yyb5w\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5a08f.dir\\Debug\\cmTC_5a08f.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_645ea.dir\\Debug\\cmTC_645ea.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_645ea.dir\\Debug\\cmTC_645ea.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_5a08f.dir\\Debug\\cmTC_5a08f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5a08f.dir\\Debug\\cmTC_5a08f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_645ea.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ih2z1\\cmTC_645ea.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5a08f.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1yyb5w\\cmTC_5a08f.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35217 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_645ea.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ih2z1\\cmTC_645ea.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5a08f.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1yyb5w\\cmTC_5a08f.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ih2z1\\Debug\\cmTC_645ea.exe" /INCREMENTAL /ILK:"cmTC_645ea.dir\\Debug\\cmTC_645ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-7ih2z1/Debug/cmTC_645ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-7ih2z1/Debug/cmTC_645ea.lib" /MACHINE:X64  /machine:x64 cmTC_645ea.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_645ea.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ih2z1\\Debug\\cmTC_645ea.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1yyb5w\\Debug\\cmTC_5a08f.exe" /INCREMENTAL /ILK:"cmTC_5a08f.dir\\Debug\\cmTC_5a08f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1yyb5w/Debug/cmTC_5a08f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1yyb5w/Debug/cmTC_5a08f.lib" /MACHINE:X64  /machine:x64 cmTC_5a08f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5a08f.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1yyb5w\\Debug\\cmTC_5a08f.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_645ea.dir\\Debug\\cmTC_645ea.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_645ea.dir\\Debug\\cmTC_645ea.tlog\\cmTC_645ea.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ih2z1\\cmTC_645ea.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_5a08f.dir\\Debug\\cmTC_5a08f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5a08f.dir\\Debug\\cmTC_5a08f.tlog\\cmTC_5a08f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1yyb5w\\cmTC_5a08f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.38
+        宸茬敤鏃堕棿 00:00:00.37
         
       exitCode: 0
   -
@@ -1081,8 +1081,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ouxbbc"
-      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ouxbbc"
+      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-guhfn0"
+      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-guhfn0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1092,39 +1092,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ouxbbc'
+        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-guhfn0'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2c015.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_57ad5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-        鐢熸垚鍚姩鏃堕棿涓?2025/10/22 17:10:14銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/12/5 19:20:21銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouxbbc\\cmTC_2c015.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guhfn0\\cmTC_57ad5.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouxbbc\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2c015.dir\\Debug\\cmTC_2c015.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guhfn0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_57ad5.dir\\Debug\\cmTC_57ad5.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_2c015.dir\\Debug\\cmTC_2c015.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_2c015.dir\\Debug\\cmTC_2c015.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_57ad5.dir\\Debug\\cmTC_57ad5.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_57ad5.dir\\Debug\\cmTC_57ad5.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2c015.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouxbbc\\cmTC_2c015.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_57ad5.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guhfn0\\cmTC_57ad5.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35217 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2c015.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouxbbc\\cmTC_2c015.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_57ad5.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guhfn0\\cmTC_57ad5.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouxbbc\\Debug\\cmTC_2c015.exe" /INCREMENTAL /ILK:"cmTC_2c015.dir\\Debug\\cmTC_2c015.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ouxbbc/Debug/cmTC_2c015.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ouxbbc/Debug/cmTC_2c015.lib" /MACHINE:X64  /machine:x64 cmTC_2c015.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_2c015.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouxbbc\\Debug\\cmTC_2c015.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guhfn0\\Debug\\cmTC_57ad5.exe" /INCREMENTAL /ILK:"cmTC_57ad5.dir\\Debug\\cmTC_57ad5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-guhfn0/Debug/cmTC_57ad5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-guhfn0/Debug/cmTC_57ad5.lib" /MACHINE:X64  /machine:x64 cmTC_57ad5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_57ad5.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guhfn0\\Debug\\cmTC_57ad5.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_2c015.dir\\Debug\\cmTC_2c015.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_2c015.dir\\Debug\\cmTC_2c015.tlog\\cmTC_2c015.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouxbbc\\cmTC_2c015.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_57ad5.dir\\Debug\\cmTC_57ad5.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_57ad5.dir\\Debug\\cmTC_57ad5.tlog\\cmTC_57ad5.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guhfn0\\cmTC_57ad5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.38
+        宸茬敤鏃堕棿 00:00:00.37
         
       exitCode: 0
   -
@@ -1230,7 +1230,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-      鐢熸垚鍚姩鏃堕棿涓?2025/10/22 20:36:58銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/12/28 22:41:07銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -1259,7 +1259,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:04.06
+      宸茬敤鏃堕棿 00:00:01.69
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1796,7 +1796,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-      鐢熸垚鍚姩鏃堕棿涓?2025/10/22 20:37:03銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/12/28 22:41:09銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -1825,7 +1825,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:02.85
+      宸茬敤鏃堕棿 00:00:00.63
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -2018,9 +2018,9 @@ events:
       - "D:/Cmake/bin/"
       - "D:/Cmake/sbin/"
       - "D:/Cmake/"
-      - "C:/Program Files (x86)/lib_test/bin/"
-      - "C:/Program Files (x86)/lib_test/sbin/"
-      - "C:/Program Files (x86)/lib_test/"
+      - "C:/Program Files (x86)/project_out/bin/"
+      - "C:/Program Files (x86)/project_out/sbin/"
+      - "C:/Program Files (x86)/project_out/"
     searched_directories:
       - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
@@ -2109,15 +2109,15 @@ events:
       - "D:/Cmake/rc.com"
       - "D:/Cmake/rc.exe"
       - "D:/Cmake/rc"
-      - "C:/Program Files (x86)/lib_test/bin/rc.com"
-      - "C:/Program Files (x86)/lib_test/bin/rc.exe"
-      - "C:/Program Files (x86)/lib_test/bin/rc"
-      - "C:/Program Files (x86)/lib_test/sbin/rc.com"
-      - "C:/Program Files (x86)/lib_test/sbin/rc.exe"
-      - "C:/Program Files (x86)/lib_test/sbin/rc"
-      - "C:/Program Files (x86)/lib_test/rc.com"
-      - "C:/Program Files (x86)/lib_test/rc.exe"
-      - "C:/Program Files (x86)/lib_test/rc"
+      - "C:/Program Files (x86)/project_out/bin/rc.com"
+      - "C:/Program Files (x86)/project_out/bin/rc.exe"
+      - "C:/Program Files (x86)/project_out/bin/rc"
+      - "C:/Program Files (x86)/project_out/sbin/rc.com"
+      - "C:/Program Files (x86)/project_out/sbin/rc.exe"
+      - "C:/Program Files (x86)/project_out/sbin/rc"
+      - "C:/Program Files (x86)/project_out/rc.com"
+      - "C:/Program Files (x86)/project_out/rc.exe"
+      - "C:/Program Files (x86)/project_out/rc"
     found: false
     search_context:
       ENV{PATH}:
@@ -2142,12 +2142,12 @@ events:
         - "D:\\Cmake\\bin"
         - "C:\\Users\\boy\\AppData\\Local\\Microsoft\\WindowsApps"
         - "E:\\VScode\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lib_test"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/project_out"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "D:/Cmake"
-        - "C:/Program Files (x86)/lib_test"
+        - "C:/Program Files (x86)/project_out"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2157,8 +2157,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-fzs7qp"
-      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-fzs7qp"
+      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1m80ck"
+      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1m80ck"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2167,39 +2167,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-fzs7qp'
+        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1m80ck'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5724d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ea419.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-        鐢熸垚鍚姩鏃堕棿涓?2025/10/22 20:37:06銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/12/28 22:41:10銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fzs7qp\\cmTC_5724d.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1m80ck\\cmTC_ea419.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fzs7qp\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5724d.dir\\Debug\\cmTC_5724d.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1m80ck\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ea419.dir\\Debug\\cmTC_ea419.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_5724d.dir\\Debug\\cmTC_5724d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_5724d.dir\\Debug\\cmTC_5724d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_ea419.dir\\Debug\\cmTC_ea419.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ea419.dir\\Debug\\cmTC_ea419.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5724d.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fzs7qp\\cmTC_5724d.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ea419.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1m80ck\\cmTC_ea419.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35217 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5724d.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fzs7qp\\cmTC_5724d.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ea419.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1m80ck\\cmTC_ea419.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fzs7qp\\Debug\\cmTC_5724d.exe" /INCREMENTAL /ILK:"cmTC_5724d.dir\\Debug\\cmTC_5724d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-fzs7qp/Debug/cmTC_5724d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-fzs7qp/Debug/cmTC_5724d.lib" /MACHINE:X64  /machine:x64 cmTC_5724d.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_5724d.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fzs7qp\\Debug\\cmTC_5724d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1m80ck\\Debug\\cmTC_ea419.exe" /INCREMENTAL /ILK:"cmTC_ea419.dir\\Debug\\cmTC_ea419.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1m80ck/Debug/cmTC_ea419.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-1m80ck/Debug/cmTC_ea419.lib" /MACHINE:X64  /machine:x64 cmTC_ea419.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ea419.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1m80ck\\Debug\\cmTC_ea419.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_5724d.dir\\Debug\\cmTC_5724d.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_5724d.dir\\Debug\\cmTC_5724d.tlog\\cmTC_5724d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fzs7qp\\cmTC_5724d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ea419.dir\\Debug\\cmTC_ea419.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ea419.dir\\Debug\\cmTC_ea419.tlog\\cmTC_ea419.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1m80ck\\cmTC_ea419.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.92
+        宸茬敤鏃堕棿 00:00:00.59
         
       exitCode: 0
   -
@@ -2239,8 +2239,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ffdoub"
-      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ffdoub"
+      source: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-bj7zzl"
+      binary: "E:/Git/\u4ed3\u5e93/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-bj7zzl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2250,39 +2250,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ffdoub'
+        Change Dir: 'E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-bj7zzl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aad2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94a18.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
-        鐢熸垚鍚姩鏃堕棿涓?2025/10/22 20:37:08銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/12/28 22:41:11銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffdoub\\cmTC_aad2d.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7zzl\\cmTC_94a18.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffdoub\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_aad2d.dir\\Debug\\cmTC_aad2d.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7zzl\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_94a18.dir\\Debug\\cmTC_94a18.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_aad2d.dir\\Debug\\cmTC_aad2d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_aad2d.dir\\Debug\\cmTC_aad2d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_94a18.dir\\Debug\\cmTC_94a18.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_94a18.dir\\Debug\\cmTC_94a18.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_aad2d.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffdoub\\cmTC_aad2d.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_94a18.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7zzl\\cmTC_94a18.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35217 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_aad2d.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffdoub\\cmTC_aad2d.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_94a18.dir\\Debug\\\\" /Fd"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7zzl\\cmTC_94a18.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffdoub\\Debug\\cmTC_aad2d.exe" /INCREMENTAL /ILK:"cmTC_aad2d.dir\\Debug\\cmTC_aad2d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ffdoub/Debug/cmTC_aad2d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-ffdoub/Debug/cmTC_aad2d.lib" /MACHINE:X64  /machine:x64 cmTC_aad2d.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_aad2d.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffdoub\\Debug\\cmTC_aad2d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7zzl\\Debug\\cmTC_94a18.exe" /INCREMENTAL /ILK:"cmTC_94a18.dir\\Debug\\cmTC_94a18.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-bj7zzl/Debug/cmTC_94a18.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Git/浠撳簱/scholl-project-of-sulakarda/build/CMakeFiles/CMakeScratch/TryCompile-bj7zzl/Debug/cmTC_94a18.lib" /MACHINE:X64  /machine:x64 cmTC_94a18.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_94a18.vcxproj -> E:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7zzl\\Debug\\cmTC_94a18.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_aad2d.dir\\Debug\\cmTC_aad2d.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_aad2d.dir\\Debug\\cmTC_aad2d.tlog\\cmTC_aad2d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffdoub\\cmTC_aad2d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_94a18.dir\\Debug\\cmTC_94a18.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_94a18.dir\\Debug\\cmTC_94a18.tlog\\cmTC_94a18.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Git\\浠撳簱\\scholl-project-of-sulakarda\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7zzl\\cmTC_94a18.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:01.28
+        宸茬敤鏃堕棿 00:00:00.52
         
       exitCode: 0
   -

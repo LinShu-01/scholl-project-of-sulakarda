@@ -1,0 +1,10 @@
+^E:\GIT\仓库\SCHOLL-PROJECT-OF-SULAKARDA\SAVA-LOAD_CPP\CMAKELISTS.TXT
+setlocal
+D:\Cmake\bin\cmake.exe -SE:/Git/仓库/scholl-project-of-sulakarda/sava-load_cpp -BE:/Git/仓库/scholl-project-of-sulakarda/build --check-stamp-file E:/Git/仓库/scholl-project-of-sulakarda/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Git\仓库\scholl-project-of-sulakarda\sava-load_cpp\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Git\仓库\scholl-project-of-sulakarda\sava-load_cpp\src\chess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Git\仓库\scholl-project-of-sulakarda\sava-load_cpp\src\FileIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Git\仓库\scholl-project-of-sulakarda\sava-load_cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4EC69B51-4E9B-346C-90F1-8CBFD606420D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,3 +1,0 @@
-/home/lin/Chess_Git/scholl-project-of-sulakarda/build/CMakeFiles/chess_game.dir
-/home/lin/Chess_Git/scholl-project-of-sulakarda/build/CMakeFiles/edit_cache.dir
-/home/lin/Chess_Git/scholl-project-of-sulakarda/build/CMakeFiles/rebuild_cache.dir

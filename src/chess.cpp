@@ -12,7 +12,10 @@ std::vector<std::vector<Qizi>>& Chess::getboard()
 {
 	return board_;
 }
-
+const std::vector<std::vector<Qizi>>& Chess::getboard() const
+{
+	return board_;
+}
 bool Chess::in_board(int now_row, int now_col, int new_row, int new_col)
 {
 	return  !(new_row >= BOARD_SIZE || new_col >= BOARD_SIZE ||
@@ -284,4 +287,47 @@ void Chess::printboard()
 		cout << endl;
 	}
 }
+
+//用于AI
+
+Qizi Chess::getPiece(int row, int col) const
+{
+    return board_[row][col];
+}
+
+void Chess::setPiece(int row, int col, const Qizi& piece)
+{
+    board_[row][col] = piece;
+}
+
+bool Chess::canMove(int now_row, int now_col, int new_row, int new_col, Play color)
+{
+    if (!in_board(now_row, now_col, new_row, new_col)) return false;
+    if (board_[now_row][now_col].now_ != color) return false;
+    if (board_[new_row][new_col].now_ == color) return false;
+    return true;
+}
+
+std::vector<std::pair<int, int>> Chess::getPossibleMoves(int row, int col, Play color)
+{
+    std::vector<std::pair<int, int>> moves;
+    
+    // 四个方向：上、下、左、右
+    int directions[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    
+    for (int i = 0; i < 4; i++) {
+        int new_row = row + directions[i][0];
+        int new_col = col + directions[i][1];
+        
+        if (new_row >= 0 && new_row < BOARD_SIZE && 
+            new_col >= 0 && new_col < BOARD_SIZE &&
+            canMove(row, col, new_row, new_col, color)) {
+            moves.push_back({new_row, new_col});
+        }
+    }
+    
+    return moves;
+}
+
+
 

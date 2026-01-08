@@ -153,6 +153,30 @@ src/FileIO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_game.dir/build.make CMakeFiles/chess_game.dir/src/FileIO.cpp.s
 .PHONY : src/FileIO.cpp.s
 
+src/ai.o: src/ai.cpp.o
+.PHONY : src/ai.o
+
+# target to build an object file
+src/ai.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_game.dir/build.make CMakeFiles/chess_game.dir/src/ai.cpp.o
+.PHONY : src/ai.cpp.o
+
+src/ai.i: src/ai.cpp.i
+.PHONY : src/ai.i
+
+# target to preprocess a source file
+src/ai.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_game.dir/build.make CMakeFiles/chess_game.dir/src/ai.cpp.i
+.PHONY : src/ai.cpp.i
+
+src/ai.s: src/ai.cpp.s
+.PHONY : src/ai.s
+
+# target to generate assembly for a file
+src/ai.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_game.dir/build.make CMakeFiles/chess_game.dir/src/ai.cpp.s
+.PHONY : src/ai.cpp.s
+
 src/chess.o: src/chess.cpp.o
 .PHONY : src/chess.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/FileIO.o"
 	@echo "... src/FileIO.i"
 	@echo "... src/FileIO.s"
+	@echo "... src/ai.o"
+	@echo "... src/ai.i"
+	@echo "... src/ai.s"
 	@echo "... src/chess.o"
 	@echo "... src/chess.i"
 	@echo "... src/chess.s"

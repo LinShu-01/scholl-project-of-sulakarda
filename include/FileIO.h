@@ -1,15 +1,13 @@
 #pragma once
-#include <string>
-
-class Chess;
+#include<string>
+#include"chess.hpp"
+using namespace std;
 
 class FileIO {
 private:
-    std::string saveDirectory = "saves/";
-
+    string GetCurrentTime(const string& format = "%Y-%m-%d_%H-%M-%S");
 public:
-    std::string GetCurrentTime(const std::string &format);
-    bool SaveGame();
-    std::string Get_load_filename();
-    Chess LoadGame(const std::string &filename);
+    bool SaveGame(const Chess& chess);
+    string Get_load_filename();
+    Chess LoadGame(const string& filename);
 };

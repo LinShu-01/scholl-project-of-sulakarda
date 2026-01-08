@@ -14,6 +14,7 @@ add_executable(chess_game
     src/main.cpp 
     src/chess.cpp 
     src/FileIO.cpp
+    src/ai.cpp
 )
 
 # 包含头文件目录

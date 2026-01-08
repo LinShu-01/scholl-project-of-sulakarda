@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/chess_game.dir/src/main.cpp.o CMakeFiles/chess_game.dir/src/chess.cpp.o CMakeFiles/chess_game.dir/src/FileIO.cpp.o -o chess_game  -lstdc++fs 
+/usr/bin/c++ CMakeFiles/chess_game.dir/src/main.cpp.o CMakeFiles/chess_game.dir/src/chess.cpp.o CMakeFiles/chess_game.dir/src/FileIO.cpp.o CMakeFiles/chess_game.dir/src/ai.cpp.o -o chess_game  -lstdc++fs 
